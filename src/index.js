@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Preloader from "./components/preloader/preloader";
 import Timer from "./components/countdown/timer";
+import VercelBadge from "./components/badges/vercel";
 
 import "./styles.css";
 
@@ -16,6 +17,9 @@ function App() {
         </h1>
         <Timer />
         <Preloader />
+      </div>
+      <div classname="footer">
+          <VercelBadge />
       </div>
     </div>
   );
